@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1582994315 source:/home/shifa-yang/Desktop/CSP/Simulation/2013/12-5/main.cpp
+	<iostream>
+	<cstring>
+	<queue>
+
