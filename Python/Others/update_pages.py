@@ -12,8 +12,8 @@ def login():
             'div.field:nth-child(4) > input:nth-child(1)')
         user_name.clear()
         password.clear()
-        user_name.send_keys('**********')
-        password.send_keys('**********')
+        user_name.send_keys('*********')
+        password.send_keys('*********')
         butn.click()
         time.sleep(3)
     except Exception as error:
