@@ -1,0 +1,6 @@
+#!/bin/bash
+rm Linux.zip
+cd ~
+cd .config
+zip -q -r Linux codeblocks
+mv Linux.zip /home/shifa-yang/Desktop/Work/CodeBlocks-config/Linux.zip

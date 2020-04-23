@@ -1,0 +1,69 @@
+{
+    "configs": [
+        {
+            "method": "aes-256-cfb",
+            "password": "eIW0Dnk69454e6nSwuspv9DmS201tQ0D",
+            "remarks": "1",
+            "server": "172.104.101.201",
+            "server_port": 8099
+        },
+        {
+            "method": "aes-256-cfb",
+            "password": "eIW0Dnk69454e6nSwuspv9DmS201tQ0D",
+            "remarks": "2",
+            "server": "45.79.77.234",
+            "server_port": 8099
+        },
+        {
+            "method": "aes-256-cfb",
+            "password": "eIW0Dnk69454e6nSwuspv9DmS201tQ0D",
+            "remarks": "3",
+            "server": "172.104.98.12",
+            "server_port": 8099
+        },
+        {
+            "method": "aes-256-cfb",
+            "password": "eIW0Dnk69454e6nSwuspv9DmS201tQ0D",
+            "remarks": "4",
+            "server": "172.104.112.86",
+            "server_port": 8099
+        },
+        {
+            "method": "aes-256-cfb",
+            "password": "eIW0Dnk69454e6nSwuspv9DmS201tQ0D",
+            "remarks": "5",
+            "server": "139.162.67.135",
+            "server_port": 8099
+        },
+        {
+            "method": "aes-256-cfb",
+            "password": "eIW0Dnk69454e6nSwuspv9DmS201tQ0D",
+            "remarks": "6",
+            "server": "45.79.115.244",
+            "server_port": 8099
+        },
+        {
+            "method": "aes-256-cfb",
+            "password": "eIW0Dnk69454e6nSwuspv9DmS201tQ0D",
+            "remarks": "7",
+            "server": "45.79.71.183",
+            "server_port": 8099
+        },
+        {
+            "method": "aes-256-cfb",
+            "password": "eIW0Dnk69454e6nSwuspv9DmS201tQ0D",
+            "remarks": "8",
+            "server": "74.207.246.242",
+            "server_port": 8099
+        },
+        {
+            "method": "aes-256-cfb",
+            "password": "brysjhhrhl",
+            "remarks": "9",
+            "server": "3.114.190.143",
+            "server_port": 59376
+        }
+    ],
+    "localPort": 8888,
+    "shareOverLan": false
+}

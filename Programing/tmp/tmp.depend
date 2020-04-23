@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1587537221 source:/home/shifa-yang/Desktop/Work/Programing/tmp/main.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+

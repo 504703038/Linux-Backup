@@ -1,23 +1,19 @@
 #include <iostream>
-
+#include <algorithm>
+#include <vector>
 using namespace std;
-struct Student
+int ans=0;
+int dg(int n)
 {
-    char *name;
-    int age;
-    char *sex;
-    Student(char *name,int age,char *sex)
-    :name(name),age(age),sex(sex){}
-    void print_info()
-    {
-        cout<<"name: "<<name<<endl;
-        cout<<"age: "<<age<<endl;
-        cout<<"sex: "<<sex<<endl;
-    }
-};
+    ans++;
+    if (n==1) return 1;
+    return 4*dg(n/2)+n;
+}
 int main()
 {
-    Student stu = Student("张三",18,"男");
-    stu.print_info();
+    int n;
+    cin>>n;
+    dg(n);
+    cout<<ans;
     return 0;
 }

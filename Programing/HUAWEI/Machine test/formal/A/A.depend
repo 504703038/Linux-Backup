@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1587553761 source:/home/shifa-yang/Desktop/Work/Programing/HUAWEI/Machine test/formal/A/main.cpp
+	<iostream>
+	<string>
+	<cstring>
+
