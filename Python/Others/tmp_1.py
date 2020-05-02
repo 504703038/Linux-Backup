@@ -1,18 +1,20 @@
-import time
-from selenium import webdriver
+import unittest
 cur_path = './Others/'
+
+
+def get_formatted_name(first, last):
+    """Generate a neatly formatted full name."""
+    full_name = first + ' ' + last
+    return full_name.title()
+
+
+class NamesTestCase(unittest.TestCase):
+    """测试name_function.py"""
+
+    def test_first_last_name(self):
+        formatted_name = get_formatted_name('janis', 'joplin')
+        self.assertEqual(formatted_name, 'Janis Joplin')
+
+
 if __name__ == "__main__":
-    with open(cur_path + 'tmp.txt') as file:
-        content = file.readlines()
-    for line in content:
-        # tmp = line.split(' ')
-        # print(tmp)
-        (adress, port, password, method) = line.split(' ')
-        method = method[:-1]
-        print('{')
-        print('"method": "{}",'.format(method))
-        print('"password": "{}",'.format(password))
-        print('"remarks": "1",')
-        print('"server": "{}",'.format(adress))
-        print('"server_port": {}'.format(port))
-        print('},')
+    unittest.main()

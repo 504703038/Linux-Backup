@@ -1,9 +1,8 @@
+import Reptile_tools as tool
+cur_path = './Reptile/'
+
 if __name__ == "__main__":
-    with open('./Others/tmp.txt', 'r') as file:
-        content = file.readlines()
-    with open('./Others/tmp.html', 'w') as file:
-        for line in content:
-            vdriver, vchrome = line.split(' ')
-            vchrome = vchrome[:-1]
-            file.write('<option vchrome="' + vchrome + '" vdriver="' +
-                       vdriver + '">' + vchrome + '</option>\n')
+    url = 'http://www.baidu.com'
+    soup = tool.get_soup(url, 'utf-8')
+    print(soup.find('a'))
+    print(soup.find(name='mp'))
