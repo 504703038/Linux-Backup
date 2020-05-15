@@ -1,20 +1,13 @@
-import unittest
+import pygame
 cur_path = './Others/'
 
 
-def get_formatted_name(first, last):
-    """Generate a neatly formatted full name."""
-    full_name = first + ' ' + last
-    return full_name.title()
-
-
-class NamesTestCase(unittest.TestCase):
-    """测试name_function.py"""
-
-    def test_first_last_name(self):
-        formatted_name = get_formatted_name('janis', 'joplin')
-        self.assertEqual(formatted_name, 'Janis Joplin')
-
-
 if __name__ == "__main__":
-    unittest.main()
+    pygame.init()
+    content = '得分'
+    fonts = pygame.font.get_fonts()
+    for font_name in fonts:
+        font = pygame.font.SysFont(font_name, 48)
+        font_img = font.render(content, True, (0, 0, 0))
+        print(type(font_img))
+        pygame.image.save(font_img, cur_path + 'fonts/' + font_name + '.png')
