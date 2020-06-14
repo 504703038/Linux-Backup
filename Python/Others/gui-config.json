@@ -1,0 +1,160 @@
+{
+	"configs": [
+		{
+			"method": "rc4-md5", 
+			"password": "PQP30uNj3T9N",
+			"remarks": "0", 
+			"server": "185.54.42.163",
+			"server_port": 22209 
+		},
+		{
+			"method": "aes-256-cfb", 
+			"password": "Yo8Rwa",
+			"remarks": "1", 
+			"server": "98.40.221.59",
+			"server_port": 6741 
+		},
+		{
+			"method": "aes-256-cfb", 
+			"password": "kq46LZosR",
+			"remarks": "2", 
+			"server": "27.183.64.207",
+			"server_port": 54545 
+		},
+		{
+			"method": "aes-256-cfb", 
+			"password": "IrbRynui0H",
+			"remarks": "3", 
+			"server": "5.6.37.149",
+			"server_port": 21932 
+		},
+		{
+			"method": "chacha20", 
+			"password": "XmKk6MU",
+			"remarks": "4", 
+			"server": "155.10.181.249",
+			"server_port": 12066 
+		},
+		{
+			"method": "rc4-md5", 
+			"password": "5pVQ6oei",
+			"remarks": "5", 
+			"server": "7.148.197.177",
+			"server_port": 6805 
+		},
+		{
+			"method": "rc4-md5", 
+			"password": "Q54Prr7C",
+			"remarks": "6", 
+			"server": "68.114.144.162",
+			"server_port": 40387 
+		},
+		{
+			"method": "chacha20", 
+			"password": "Y1M76K",
+			"remarks": "7", 
+			"server": "12.163.233.203",
+			"server_port": 46035 
+		},
+		{
+			"method": "aes-256-cfb", 
+			"password": "XKcELsS2peX",
+			"remarks": "8", 
+			"server": "196.81.102.131",
+			"server_port": 73 
+		},
+		{
+			"method": "chacha20", 
+			"password": "QeesfVq5Shlv",
+			"remarks": "9", 
+			"server": "60.56.227.6",
+			"server_port": 13789 
+		},
+		{
+			"method": "aes-256-cfb", 
+			"password": "qPy4AbtG4i",
+			"remarks": "10", 
+			"server": "182.214.142.36",
+			"server_port": 45077 
+		},
+		{
+			"method": "aes-256-cfb", 
+			"password": "1uq0WX4PtV",
+			"remarks": "11", 
+			"server": "31.101.144.169",
+			"server_port": 58533 
+		},
+		{
+			"method": "chacha20", 
+			"password": "kT0RQcGHEo2",
+			"remarks": "12", 
+			"server": "206.126.246.154",
+			"server_port": 16341 
+		},
+		{
+			"method": "rc4-md5", 
+			"password": "JawO99p95",
+			"remarks": "13", 
+			"server": "31.181.142.74",
+			"server_port": 39421 
+		},
+		{
+			"method": "rc4-md5", 
+			"password": "z8Dv8Von4Yv",
+			"remarks": "14", 
+			"server": "65.152.30.143",
+			"server_port": 16487 
+		},
+		{
+			"method": "aes-256-cfb", 
+			"password": "XrTfRCJ5Gm",
+			"remarks": "15", 
+			"server": "70.224.51.182",
+			"server_port": 32761 
+		},
+		{
+			"method": "aes-256-cfb", 
+			"password": "SWNCLQmr8Zk",
+			"remarks": "16", 
+			"server": "144.89.153.255",
+			"server_port": 30756 
+		},
+		{
+			"method": "chacha20", 
+			"password": "q3kDMF",
+			"remarks": "17", 
+			"server": "175.143.221.58",
+			"server_port": 24275 
+		},
+		{
+			"method": "chacha20", 
+			"password": "AyPdKVLtWqG",
+			"remarks": "18", 
+			"server": "143.84.139.122",
+			"server_port": 19311 
+		},
+		{
+			"method": "aes-256-cfb", 
+			"password": "txgDIteCUQ",
+			"remarks": "19", 
+			"server": "182.108.114.253",
+			"server_port": 12864 
+		},
+		{
+			"method": "aes-256-cfb", 
+			"password": "W2JnSW7EVi",
+			"remarks": "20", 
+			"server": "31.110.47.195",
+			"server_port": 3727 
+		},
+		{
+			"method": "chacha20", 
+			"password": "TuQjbf",
+			"remarks": "21", 
+			"server": "170.10.201.55",
+			"server_port": 22786 
+		}
+	],
+	"localPort": 8888,
+	"shareOverLan": false
+}

@@ -1,2 +1,8 @@
-from mytools import myTools
-print(myTools.get_files('./'))
+import time
+import multiprocessing
+
+
+if __name__ == "__main__":
+    d = {}
+    d['a'] = 1
+    print(d['a'])
